@@ -30,7 +30,7 @@ xhr.send();
 // Visitor
 function getvisitor(){
     var xhr = new XMLHttpRequest();
-    var url = 'https://api.countapi.xyz/hit/thadzbotz/visits';
+    var url = 'https://api.countapi.xyz/hit/web/thadzbotz/visits';
     xhr.onloadend = function(){
     data = JSON.parse(this.responseText);
     document.getElementById("visits").textContent = data.value
